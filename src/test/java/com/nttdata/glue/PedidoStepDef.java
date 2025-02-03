@@ -44,12 +44,12 @@ public class PedidoStepDef {
     }
     @And("el sistema muestra los detalles del pedido de la mascota")
     public void el_sistema_muestra_los_detalles_del_pedido_de_la_mascota() {
-        // Aquí puedes agregar la lógica para verificar que los detalles del pedido son correctos
-        pedidoStep.validarDetallesPedido();  // Llama al método que valida los detalles del pedido
+    pedidoStep.validarDetallesPedido();  
     }
     @And("el sistema devuelve la información correcta para el ID {int}")
     public void validarPedidoCorrecto(int idPedido) {
         pedidoStep.validarPedidoCorrecto(idPedido);
     }
 }
+
 
